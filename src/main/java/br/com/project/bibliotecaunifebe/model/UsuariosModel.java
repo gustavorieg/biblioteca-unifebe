@@ -1,4 +1,4 @@
-package br.com.project.bibliotecaunifebe.Model;
+package br.com.project.bibliotecaunifebe.model;
 
 public class UsuariosModel {
     private int Id;
@@ -13,5 +13,25 @@ public class UsuariosModel {
         this.Email = email;
         this.Senha = senha;
         this.Permissao = permissao;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public String getNome() {
+        return Nome;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public String getSenha() {
+        return Senha;
+    }
+
+    public Boolean getPermissao() {
+        return Permissao;
     }
 }

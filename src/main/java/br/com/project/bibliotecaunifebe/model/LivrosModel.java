@@ -1,4 +1,4 @@
-package br.com.project.bibliotecaunifebe.Model;
+package br.com.project.bibliotecaunifebe.model;
 
 public class LivrosModel {
     private int Id;
@@ -17,5 +17,33 @@ public class LivrosModel {
         this.Ano = ano;
         this.Categoria = categoria;
         this.Status = status;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public String getTitulo() {
+        return Titulo;
+    }
+
+    public String getAutor() {
+        return Autor;
+    }
+
+    public String getEditora() {
+        return Editora;
+    }
+
+    public String getAno() {
+        return Ano;
+    }
+
+    public String getCategoria() {
+        return Categoria;
+    }
+
+    public String getStatus() {
+        return Status;
     }
 }

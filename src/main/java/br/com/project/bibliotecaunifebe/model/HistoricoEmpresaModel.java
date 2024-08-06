@@ -1,4 +1,4 @@
-package br.com.project.bibliotecaunifebe.Model;
+package br.com.project.bibliotecaunifebe.model;
 
 import java.util.Date;
 
@@ -15,5 +15,25 @@ public class HistoricoEmpresaModel {
         this.LivroID = livroID;
         this.DataEmprestimo = dataEmprestimo;
         this.DataDevolucao = dataDevolucao;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public int getUsuarioId() {
+        return UsuarioId;
+    }
+
+    public int getLivroID() {
+        return LivroID;
+    }
+
+    public Date getDataEmprestimo() {
+        return DataEmprestimo;
+    }
+
+    public Date getDataDevolucao() {
+        return DataDevolucao;
     }
 }
